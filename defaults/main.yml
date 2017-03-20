@@ -7,7 +7,7 @@ mimeapps_user_home: "/home/{{ mimeapps_user }}"
 # It will replace you old accotiations file.
 # Here is an example that I use with chromium, atom and vlc.
 
-default_associations:
+mimeapps_default_associations:
   - { type: x-scheme-handler/http,    app: chromium-browser.desktop }
   - { type: x-scheme-handler/https,   app: chromium-browser.desktop }
   - { type: x-scheme-handler/about,   app: chromium-browser.desktop }
@@ -30,6 +30,6 @@ default_associations:
   - { type: audio/x-wav,              app: vlc.desktop              }
   - { type: audio/x-mpegurl,          app: vlc.desktop              }
 
-added_associations:
+mimeapps_added_associations:
   - { type: application/xml, app: atom.desktop;chromium-browser.desktop             }
   - { type: image/svg+xml,   app: atom.desktop;chromium-browser.desktop;eog.desktop }

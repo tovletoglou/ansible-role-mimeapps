@@ -1,9 +1,9 @@
 [Default Applications]
-{% for entry in default_associations %}
+{% for entry in mimeapps_default_associations %}
 {{ entry.type }}={{ entry.app }}
 {% endfor %}
 
 [Added Associations]
-{% for entry in added_associations %}
+{% for entry in mimeapps_added_associations %}
 {{ entry.type }}={{ entry.app }}
 {% endfor %}
