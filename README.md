@@ -8,11 +8,11 @@ Tested on Fedora with Cinnamon.
 
 ## Role Variables
 
-```
+```yml
 mimeapps_user: root
 ```
 
-```
+```yml
 default_associations:
   - { type: x-scheme-handler/http,    app: chromium-browser.desktop }
   - { type: x-scheme-handler/https,   app: chromium-browser.desktop }
@@ -37,7 +37,7 @@ default_associations:
   - { type: audio/x-mpegurl,          app: vlc.desktop              }
 ```
 
-```
+```yml
 added_associations:
   - { type: application/xml, app: atom.desktop;chromium-browser.desktop             }
   - { type: image/svg+xml,   app: atom.desktop;chromium-browser.desktop;eog.desktop }
